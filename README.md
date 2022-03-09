@@ -4,10 +4,10 @@
 - Tired of struggling on how to start a new project and setting up all the foundational architecture? 
 - Tired of spending countless hours, days, or months in getting your foundational frameworks robust and reliable? 
 
-If any of these sound like situations you have experienced or experiences that you simply want to avoid, then Synapse is what you need.
+If any of these situations sound familiar and you would answer "yes" to any of these questions, then Synapse is what you need.
 
-Synapse is a set of lightweight modules designed to help developers build out applications. The modules serve as a wide range tool-suite for developers to facilitate rapid development, with high quality built-in.
-It is designed with the purpose of helping developers create web services in a quick and easy way following strict conventions.
+Synapse is a set of lightweight modules designed to help developers build out applications, rapidly The modules serve as a wide range tool-suite for developers to facilitate rapid development, with high quality built-in.
+THe frameworks are designed with the purpose of helping developers create web services in a quick and easy way following strict conventions.
 Synapse provides an abstraction layer that enforces developers to follow SOLID principles and avoid common mistakes during the development process.
 It is based on keeping things SIMPLE and clear. The framework strongly encourages convention over configuration, while highlighting the criticality of structure. 
 Although Synapse will cover a majority of the scenarios you will need when creating an enterprise-grade application, it is also very open to extension. 
@@ -74,7 +74,7 @@ It provides several out-of-the-box functionalities like:
      - Open to extension property files with the default following values: 
                 - An open to extension connection pool default parameters.
                 - An open to extension H2 connection parameters for local property file.
-                - An open to extens4ion H2 initialization parameters for local property file.
+                - An open to extension H2 initialization parameters for local property file.
                 - An open to extension any relational database initialization parameters for three extra environments(E1, E2 and E3).
 
      - An open to extension BaseEntity that contains the key identifier with a default(open to extension also) GenerationType.IDENTITY and the common auditing fields maintained by the Spring Data framework itself (createdBy, lastModifiedBy, createdDate, lastModifiedDate and version). 
@@ -121,7 +121,7 @@ These are several of the benefits it provides on-top of what Spring already prov
     - Enforces developers to follow the same template and good standards across the entire code base.
     - Forces strict separation of concerns because the base 'Hook' classes which the developers extend from are already representing each layer in the famous and already proven three layer architecture.
             - Base<Crud functionality>Controller (Http Layer).
-            - Base<Crud functionality>Service (Sevice Layer).
+            - Base<Crud functionality>Service (Service Layer).
             - BaseRestClient, BaseSoapClient or Repositories(These are already interfaces so not base classes provided) (DAO Layer).
     - Provides the BaseControllerTest class with a set of overloaded methods to facilitate controllers slice testing.
     - Provides a couchbase library to build dynamic queries based on Spring Data and Query DSL (There is nothing like this out there).
