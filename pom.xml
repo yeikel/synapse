@@ -18,7 +18,7 @@
     <groupId>io.americanexpress.synapse</groupId>
     <artifactId>synapse</artifactId>
     <packaging>pom</packaging>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
 
     <description>
         Synapse is a set of lightweight foundational framework modules for rapid development built-in with enterprise
@@ -41,7 +41,7 @@
         <!--Spring Versions-->
         <spring-framework.version>5.3.12</spring-framework.version>
         <spring-security.version>5.5.3</spring-security.version>
-        <spring-boot-framework.version>2.5.6</spring-boot-framework.version>
+        <spring-boot-framework.version>2.6.4</spring-boot-framework.version>
         <spring-boot-ws-framework.version>1.4.7.RELEASE</spring-boot-ws-framework.version>
 
         <!--SpringFox-->
@@ -357,6 +357,13 @@
                 <version>${spring-boot-graphql.version}</version>
             </dependency>
 
+            <!--Apache Logging-->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>2.17.2</version>
+            </dependency>
+
             <!--Tomcat-->
             <dependency>
                 <groupId>org.apache.tomcat.embed</groupId>
@@ -634,6 +641,8 @@
                 <artifactId>springfox-boot-starter</artifactId>
                 <version>3.0.0</version>
             </dependency>
+
+
 
             <!--Swagger Annotations-->
             <dependency>
